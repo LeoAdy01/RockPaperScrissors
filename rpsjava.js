@@ -3,7 +3,7 @@ let computerScore = 0
 const buttons = document.querySelectorAll('input')
 
 function computerPlay() {
-    let choices = ['rock', 'paper', 'scrissors']
+    let choices = ['🪨', '📄', '✂️']
     return choices[Math.floor(Math.random() * choices.length)]
 }
 
@@ -17,9 +17,9 @@ function playRound(playerSelection) {
     let computerSelection = computerPlay()
     let result = ""
 
-    if ((playerSelection == 'rock' && computerSelection == 'scrissors') ||
-        (playerSelection == 'scrissors' && computerSelection == 'paper') ||
-        (playerSelection == 'paper' && computerSelection == 'rock')) {
+    if ((playerSelection == '🪨' && computerSelection == '✂️') ||
+        (playerSelection == '✂️' && computerSelection == '📄') ||
+        (playerSelection == '📄' && computerSelection == '🪨')) {
         
         playerScore += 1
         result = ('You win! ' + playerSelection + ' beats ' + computerSelection

@@ -1,3 +1,46 @@
 body{
-    background-color: darkslategray;
+    background-color: #003566;
+}
+
+h1{
+    background-color: #001d3d;
+    color: yellow;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: -8px;
+    left: -8px;
+    width: 1870px;   
+    padding: 25px;
+}
+
+input[type = 'button']{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    top: 400px;
+    padding: 25px;
+    font-size: 35px;
+    background-color: #001d3d;
+    border: none;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#rock{
+    font-size: 39px;
+    top: 401px;
+}
+
+input[type = 'button']:hover{
+    cursor: pointer;
+    background-color: #001a35;
+}
+
+#result{
+    color: white;
+    position: relative;
+    left: 46%;
+    top: 0px;
+    max-width: 700px;
 }
