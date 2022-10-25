@@ -38,7 +38,8 @@ input[type = 'button']:hover{
 }
 
 #result{
-    color: white;
+    color: yellow;
+    font-size: 20px;
     position: relative;
     left: 46%;
     top: 0px;
